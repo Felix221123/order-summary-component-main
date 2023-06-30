@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-solution-fJlErqXcJ4]
 - Live Site URL: [https://order-summary-card-token.netlify.app/]
 
 ## My process
