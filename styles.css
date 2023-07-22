@@ -17,7 +17,9 @@ html{
 }
 
 body{
-    background-size: cover;
+    background-repeat: no repeat;
+    background-image:url("images/pattern-background-desktop.svg");
+    background-size: 100%;
 } 
 
 *, ::before, ::after{
@@ -27,8 +29,7 @@ body{
 }
 
 .card-component{
-    width:24vw;
-    height:auto;
+    width:clamp(25% , 26% , 27%);
     background-color: white;
     margin:3rem auto;
     border-radius:1rem ;
@@ -209,7 +210,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:96vw;
+        width:96%;
         height:auto;
         margin: 2rem auto;
     }
@@ -229,7 +230,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:94vw;
+        width:94%;
         margin: 2rem auto;
 
     }
@@ -245,7 +246,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:80vw;
+        width:80%;
         margin: 2rem auto;
     }
 }
@@ -259,7 +260,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:70vw;
+        width:70%;
         margin: 2rem auto;
 
     }
@@ -272,7 +273,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:60vw;
+        width:60%;
         margin: 2rem auto;
 
     }
@@ -285,7 +286,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:52vw;
+        width:52%;
         margin: 2rem auto;
 
     }
@@ -311,7 +312,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:40vw;
+        width:40%;
         margin: 2rem auto;
 
     }
@@ -324,7 +325,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:35vw;
+        width:35%;
         margin: 2rem auto;
 
     }
@@ -337,7 +338,7 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:30vw;
+        width:30%;
         margin: 2rem auto;
 
     }
@@ -349,19 +350,15 @@ a:hover{
         padding:0;
     }
     .card-component{
-        width:28vw;
+        width:28%;
         margin: 2rem auto;
 
     }
 }
 
 @media (min-width:1440px){
-    body{
-        margin: 0;
-        padding:0;
-    }
     .card-component{
-        width:24vw;
+        width:25%;
         margin: 2rem auto;
     }
     .plan-title{
